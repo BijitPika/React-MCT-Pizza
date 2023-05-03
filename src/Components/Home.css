@@ -1,0 +1,124 @@
+.homeContainer{
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    box-shadow: 0 10px 20px black;
+}
+
+.menu{
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.homeMain{
+    height: 100%;
+    width: 80%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(https://nomoneynotime.com.au/uploads/recipes/shutterstock_2042520416-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homeText{
+    width: 50%;
+    height: 50%;
+    /* border: 1px solid black; */
+    color: white;
+    text-align: left;
+    padding-left: 30px;
+
+}
+
+.logo{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid red; */
+}
+.logo .h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+span{
+    font-style: italic;
+}
+
+
+.menuList{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-style: italic;
+}
+
+
+
+
+.footer{
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+}
+
+.socials{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.order{
+    height: 50%;
+    width: 100%;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    align-items: center;
+    
+
+}
+
+.order h1{
+    margin-top: 12px;
+}
+
+.homeText input{
+    height: 20px;
+}
+.homeText button{
+    height: 25px;
+    width: 100px;
+    margin-left: 2px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    
+    
+    
+}
+#menu{
+    text-decoration: none;
+}
+#menu:hover{
+    cursor: pointer;
+    color: red;
+    text-decoration: none;
+}
